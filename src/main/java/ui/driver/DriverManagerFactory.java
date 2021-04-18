@@ -1,8 +1,8 @@
 package driver;
 
 public class DriverManagerFactory {
-    public DriverManager driverManager;
-    public DriverManager getManager(BrowserType browserType)
+    public static  DriverManager driverManager;
+    public static DriverManager getManager(BrowserType browserType)
     {
      switch(browserType)
      {
