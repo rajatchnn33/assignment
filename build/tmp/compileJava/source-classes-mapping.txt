@@ -1,0 +1,27 @@
+ui/driver/FirefoxDriverManager.java
+ ui.driver.FirefoxDriverManager
+api/WeatherApi.java
+ api.WeatherApi
+model/WeatherFromUi.java
+ model.WeatherFromUi
+ui/driver/BrowserType.java
+ ui.driver.BrowserType
+ui/driver/ChromeDriverManager.java
+ ui.driver.ChromeDriverManager
+ui/pages/HomePage.java
+ ui.pages.HomePage
+api/ApiClient.java
+ api.ApiClient
+utils/TemperatureVariationException.java
+ utils.TemperatureVariationException
+ui/driver/DriverManager.java
+ ui.driver.DriverManager
+ui/pages/WeatherPage.java
+ ui.pages.WeatherPage
+ui/driver/DriverManagerFactory.java
+ ui.driver.DriverManagerFactory
+ ui.driver.DriverManagerFactory$1
+model/WeatherFromApi.java
+ model.WeatherFromApi
+utils/Constants.java
+ utils.Constants

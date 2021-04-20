@@ -1,4 +1,4 @@
-package driver;
+package ui.driver;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;

@@ -1,4 +1,4 @@
-package driver;
+package ui.driver;
 
 public class DriverManagerFactory {
     public static  DriverManager driverManager;

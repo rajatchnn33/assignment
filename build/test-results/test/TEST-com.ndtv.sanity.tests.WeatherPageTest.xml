@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ndtv.sanity.tests.WeatherPageTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-04-20T12:25:44" hostname="NDATSTNPC067" time="74.048">
+  <properties/>
+  <testcase name="testWeatherTemperatureFunctionality[0](Jaipur, 1-10, 1-10)" classname="com.ndtv.sanity.tests.WeatherPageTest" time="46.682"/>
+  <testcase name="testWeatherTemperatureFunctionality[1](Ajmer, 2-7, 2-5)" classname="com.ndtv.sanity.tests.WeatherPageTest" time="24.868"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Apr 20, 2021 5:56:29 PM org.glassfish.jersey.message.internal.MessagingBinders$EnabledProvidersBinder bindToBinder
+WARNING: A class jakarta.activation.DataSource for a default provider MessageBodyWriter<jakarta.activation.DataSource> was not found. The provider is not available.
+Apr 20, 2021 5:56:58 PM org.glassfish.jersey.message.internal.MessagingBinders$EnabledProvidersBinder bindToBinder
+WARNING: A class jakarta.activation.DataSource for a default provider MessageBodyWriter<jakarta.activation.DataSource> was not found. The provider is not available.
+]]></system-err>
+</testsuite>

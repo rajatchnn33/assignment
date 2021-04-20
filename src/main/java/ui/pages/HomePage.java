@@ -1,4 +1,4 @@
-package pages;
+package ui.pages;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -6,6 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
+
+import static utils.Constants.BASE_URL;
 
 public class HomePage {
     @FindBy(xpath = "//a[text()='LIVE TV']")
@@ -17,7 +19,8 @@ public class HomePage {
     public HomePage(WebDriver driver)
     {
         this.driver=driver;
-        driver.get("https://www.ndtv.com/");
+        driver.get(BASE_URL);
+        driver.manage().window().maximize();
         PageFactory.initElements(driver,this);
         PageFactory.initElements(new AjaxElementLocatorFactory(driver, 20), this);
     }
